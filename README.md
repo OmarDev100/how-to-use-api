@@ -45,34 +45,23 @@ Steps:
 
 - **[Sign up or Sign in to use the API](https://marketplace.zoom.us/)**
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1651666968173/iwpCieIjD.png align="left")
 
 - **Click on Develop, then click Build App**
 
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1651667122641/VLS2rdgpw.png align="left")
-
 - **Agree to the "Zoom’s API License and Terms of Use"**
 
-
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1651667181114/t8T5qAd6A.png align="left")
 
 - **Choose the the app type to be `JWT` - Why? `JWT` is easy-to-use (Click Create)**
 
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1651667284244/5_kTHDNZ1.png align="left")
-
 - **Enter the name of your application - For example: Zoom Meeting Generator**
 
-
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1651667358092/nJSL7PSVm.png align="left")
 
 - **Enter some mandatory details (Done individually)**
 
 - **After filling the required info, go to App Credentials - Copy the API Key and the API Secret**
 
-
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1651667566675/bJxF2BzVI.png align="left")
 
 We are done from the step to do on **Zoom website** till now. Now, we need to install 2 **Python** packages.
 
@@ -116,7 +105,7 @@ def generateToken():
 
 Here, we are generating the token.
 
-```
+```py
 # create json data for post requests
 meetingdetails = {"topic": "The title of your zoom meeting",
 				"type": 2,
@@ -327,7 +316,7 @@ base_url = "http://api.openweathermap.org/data/2.5/weather?"
 
 Here, we imported modules, set our **API key**, and **REQUEST URL**.
 
-```
+```py
 # Give city name
 city_name = input("Enter city name : ")
  
@@ -475,4 +464,4 @@ Thanks for reading my article! I hope you like it!
 
 Do you have any errors when using our test cases code? Comment them down below or create an issue on the GitHub Repo.
 
-[**This article on Hashnode**](https://example.com)
+[**This article on Hashnode**](https://omardevblog.toolsandapps4us.site/api)
